@@ -1,6 +1,6 @@
 title: Xi (Chase) Jiang Personal Page
 logo: /profile_pic.png
 description: CS|ECON Undergraduate Student at Colgate University
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
