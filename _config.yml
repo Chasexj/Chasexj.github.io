@@ -4,3 +4,9 @@ description: CS|ECON Undergraduate Student at Colgate University
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+gems:
+  - jekyll-sitemap
+whitelist:
+  - jekyll-sitemap
+gem "jekyll-sitemap"
+bundle install
