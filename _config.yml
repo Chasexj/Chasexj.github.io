@@ -8,5 +8,3 @@ gems:
   - jekyll-sitemap
 whitelist:
   - jekyll-sitemap
-gem "jekyll-sitemap"
-bundle install
