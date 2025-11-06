@@ -35,7 +35,6 @@ Beyond research, I am an entrepreneur and co-founder of multiple startups.
 
 ### MindFlow | *Co-Founder* | July 2025 - Present
 A next-generation brain-machine interface startup developing wearables to track and optimize focus, energy, and cognitive performance.
-- Raised $1M pre-seed round at $10M valuation within two weeks
 - Backed by leading investors in AI, neurotech, and consumer hardware
 - First consumer-friendly cognitive optimization wearable
 
