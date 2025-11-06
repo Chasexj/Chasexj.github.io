@@ -92,7 +92,7 @@ AI-driven social application
 - Improved operational efficiency of industrial robots by 2X through path optimization
 - Leveraged A* and Dijkstra's algorithms for complex path planning
 
-Extensive finance-related experiences at **Red Pulse**, **YinLang IT Limited**, **China Evervright Bank Pulse**, **China Construction Bank**, 
+Extensive finance-related experiences at **Red Pulse**, **YinLang IT Limited**, **China Evervright Bank Pulse**, **China Construction Bank**, and more. 
 
 ---
 
