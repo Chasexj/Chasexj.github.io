@@ -5,9 +5,9 @@
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at the University of Chicago, advised by Prof. Nick Feamster (ACM Fellow, MIT Tech Review 35 under 35). My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
+I am a Ph.D. student in Computer Science at the University of Chicago, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economic from Colgate Unversity, advised by Prof. Aaron Gember Jacobson. My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
 
-Beyond research, I am an entrepreneur and co-founder of MindFlow, a next-generation brain-machine interface startup that recently raised $1M in a pre-seed round at a $10M valuation.
+Beyond research, I am an entrepreneur and co-founder of multiple startups.
 
 **Contact:** xijiang9@uchicago.edu
 **Location:** Chicago, IL
@@ -62,9 +62,6 @@ AI-driven social application
 
 ### Recent Highlights
 
-**NetSSM: Comprehensive and Realistic Network Trace Generation via State Space Models**
-*CoNEXT'25* | Andrew Chu*, Xi Jiang*, Shinan Liu, et al.
-
 **JITI: Dynamic Model Serving for Just-in-Time Traffic Inference**
 *CoNEXT'25* | Xi Jiang, Shinan Liu, Saloua Naama, et al.
 
@@ -96,12 +93,15 @@ AI-driven social application
 - Improved operational efficiency of industrial robots by 2X through path optimization
 - Leveraged A* and Dijkstra's algorithms for complex path planning
 
+Extensive finance-related experiences at **Red Pulse**, **YinLang IT Limited**, **China Evervright Bank Pulse**, **China Construction Bank**, 
+
 ---
 
 ## Patents
 
 - **Provisional Patent (2025):** Enabling Scalable Generative Model Training for High Cardinality Event Streams Using State Aware Binning Encoding
 - **Provisional Patent (2025):** Diffusion-Based Network Traffic Generation
+- **Provisional Patent (2025):** SoMe Social
 
 ---
 
