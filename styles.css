@@ -357,6 +357,10 @@ body {
 }
 
 /* About Section */
+.about-section {
+    background: var(--bg-white);
+}
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr;
