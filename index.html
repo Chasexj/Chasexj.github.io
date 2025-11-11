@@ -16,12 +16,17 @@
         <div class="nav-container">
             <a href="#home" class="nav-logo">Xi (Chase) Jiang</a>
             <div class="nav-menu" id="nav-menu">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#ventures" class="nav-link">Ventures</a>
-                <a href="#research" class="nav-link">Research</a>
-                <a href="#publications" class="nav-link">Publications</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+                <a href="#ventures" class="nav-link" data-i18n="nav.ventures">Ventures</a>
+                <a href="#research" class="nav-link" data-i18n="nav.research">Research</a>
+                <a href="#publications" class="nav-link" data-i18n="nav.publications">Publications</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
             </div>
+            <button class="lang-toggle" id="lang-toggle" aria-label="Toggle Language">
+                <span class="lang-option" data-lang="en">EN</span>
+                <span class="lang-divider">|</span>
+                <span class="lang-option active" data-lang="zh">中文</span>
+            </button>
         </div>
     </nav>
 
@@ -34,16 +39,16 @@
                     <div class="profile-ring"></div>
                 </div>
                 <h1 class="hero-title">
-                    <span class="wave">👋</span> Hi, I'm <span class="gradient-text">Chase (Xi) Jiang</span>
+                    <span class="wave">👋</span> <span data-i18n="hero.greeting">Hi, I'm</span> <span class="gradient-text" data-i18n="hero.name">Chase (Xi) Jiang</span>
                 </h1>
-                <p class="hero-subtitle">Ph.D. Student in Computer Science at University of Chicago</p>
-                <p class="hero-description">
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Ph.D. Student in Computer Science at University of Chicago</p>
+                <p class="hero-description" data-i18n="hero.description">
                     Pioneering synthetic data generation, ML-driven network systems, and building next-gen startups
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.contact">Get in Touch</a>
                     <a href="/Xi_Chase_Jiang_CV.pdf" class="btn btn-secondary" target="_blank">
-                        <i class="fas fa-file-pdf"></i> View CV
+                        <i class="fas fa-file-pdf"></i> <span data-i18n="hero.cv">View CV</span>
                     </a>
                 </div>
                 <div class="social-links">
@@ -67,21 +72,21 @@
     <!-- About Section -->
     <section class="section about-section" id="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
+                    <p data-i18n="about.p1">
                         I am a Ph.D. student in Computer Science at the <strong>University of Chicago</strong>, advised by
                         Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economics from
                         <strong>Colgate University</strong>, advised by Prof. Aaron Gember Jacobson.
                     </p>
-                    <p>
+                    <p data-i18n="about.p2">
                         My research focuses on <strong>synthetic data generation</strong>, <strong>ML-driven network traffic modeling</strong>,
                         and <strong>real-time data systems</strong>. I have published in top-tier venues including
                         <span class="highlight">SIGMETRICS</span>, <span class="highlight">KDD</span>,
                         <span class="highlight">WWW</span>, and <span class="highlight">CoNEXT</span>.
                     </p>
-                    <p>
+                    <p data-i18n="about.p3">
                         Beyond research, I am an entrepreneur and co-founder of multiple startups pushing the boundaries
                         of brain-machine interfaces and AI-driven social applications.
                     </p>
@@ -89,19 +94,19 @@
                 <div class="stats-grid">
                     <div class="stat-card">
                         <div class="stat-number">15+</div>
-                        <div class="stat-label">Publications</div>
+                        <div class="stat-label" data-i18n="about.stats.publications">Publications</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">3+</div>
-                        <div class="stat-label">Patents</div>
+                        <div class="stat-label" data-i18n="about.stats.patents">Patents</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">2</div>
-                        <div class="stat-label">Startups</div>
+                        <div class="stat-label" data-i18n="about.stats.startups">Startups</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">10+</div>
-                        <div class="stat-label">Awards</div>
+                        <div class="stat-label" data-i18n="about.stats.awards">Awards</div>
                     </div>
                 </div>
             </div>
@@ -111,36 +116,36 @@
     <!-- Ventures Section -->
     <section class="section ventures-section" id="ventures">
         <div class="container">
-            <h2 class="section-title">Current Ventures</h2>
+            <h2 class="section-title" data-i18n="ventures.title">Current Ventures</h2>
             <div class="ventures-grid">
                 <div class="venture-card">
                     <h3>MindFlow</h3>
-                    <p class="venture-role">Co-Founder | July 2025 - Present</p>
-                    <p class="venture-description">
+                    <p class="venture-role" data-i18n="ventures.mindflow.role">Co-Founder | July 2025 - Present</p>
+                    <p class="venture-description" data-i18n="ventures.mindflow.description">
                         Next-generation brain-machine interface startup developing wearables to track and
                         optimize focus, energy, and cognitive performance.
                     </p>
                     <ul class="venture-highlights">
-                        <li>Backed by leading investors in AI, neurotech, and consumer hardware</li>
-                        <li>First consumer-friendly cognitive optimization wearable</li>
+                        <li data-i18n="ventures.mindflow.h1">Backed by leading investors in AI, neurotech, and consumer hardware</li>
+                        <li data-i18n="ventures.mindflow.h2">First consumer-friendly cognitive optimization wearable</li>
                     </ul>
                     <a href="https://mindflow-us.com/" target="_blank" class="venture-link">
-                        Visit Website <i class="fas fa-external-link-alt"></i>
+                        <span data-i18n="ventures.visitWebsite">Visit Website</span> <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
                 <div class="venture-card">
                     <h3>SoMe Social</h3>
-                    <p class="venture-role">Co-Founder | July 2024 - Present</p>
-                    <p class="venture-description">
+                    <p class="venture-role" data-i18n="ventures.some.role">Co-Founder | July 2024 - Present</p>
+                    <p class="venture-description" data-i18n="ventures.some.description">
                         AI-driven social application revolutionizing how people connect and interact.
                     </p>
                     <ul class="venture-highlights">
-                        <li>2nd round TechStars evaluation</li>
-                        <li>1st place in WeShine Pitch competition</li>
-                        <li>AI-enhanced matchmaking and user retention</li>
+                        <li data-i18n="ventures.some.h1">2nd round TechStars evaluation</li>
+                        <li data-i18n="ventures.some.h2">1st place in WeShine Pitch competition</li>
+                        <li data-i18n="ventures.some.h3">AI-enhanced matchmaking and user retention</li>
                     </ul>
                     <a href="https://www.socialwithsome.com/" target="_blank" class="venture-link">
-                        Visit Website <i class="fas fa-external-link-alt"></i>
+                        <span data-i18n="ventures.visitWebsite">Visit Website</span> <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
             </div>
@@ -150,31 +155,31 @@
     <!-- Research Section -->
     <section class="section research-section" id="research">
         <div class="container">
-            <h2 class="section-title">Research Interests</h2>
+            <h2 class="section-title" data-i18n="research.title">Research Interests</h2>
             <div class="research-grid">
                 <div class="research-card">
                     <i class="fas fa-database research-icon"></i>
-                    <h4>Synthetic Data Generation</h4>
+                    <h4 data-i18n="research.item1">Synthetic Data Generation</h4>
                 </div>
                 <div class="research-card">
                     <i class="fas fa-network-wired research-icon"></i>
-                    <h4>ML-Driven Network Traffic Modeling</h4>
+                    <h4 data-i18n="research.item2">ML-Driven Network Traffic Modeling</h4>
                 </div>
                 <div class="research-card">
                     <i class="fas fa-clock research-icon"></i>
-                    <h4>Real-Time Data Systems</h4>
+                    <h4 data-i18n="research.item3">Real-Time Data Systems</h4>
                 </div>
                 <div class="research-card">
                     <i class="fas fa-brain research-icon"></i>
-                    <h4>State Space Models</h4>
+                    <h4 data-i18n="research.item4">State Space Models</h4>
                 </div>
                 <div class="research-card">
                     <i class="fas fa-shield-alt research-icon"></i>
-                    <h4>Network Analysis & Security</h4>
+                    <h4 data-i18n="research.item5">Network Analysis & Security</h4>
                 </div>
                 <div class="research-card">
                     <i class="fas fa-code research-icon"></i>
-                    <h4>Protocol-Constrained Generation</h4>
+                    <h4 data-i18n="research.item6">Protocol-Constrained Generation</h4>
                 </div>
             </div>
         </div>
@@ -183,31 +188,31 @@
     <!-- Publications Section -->
     <section class="section publications-section" id="publications">
         <div class="container">
-            <h2 class="section-title">Selected Publications</h2>
+            <h2 class="section-title" data-i18n="publications.title">Selected Publications</h2>
             <div class="publications-list">
                 <div class="publication-card">
                     <div class="pub-badge">CoNEXT '25</div>
-                    <h4>JITI: Dynamic Model Serving for Just-in-Time Traffic Inference</h4>
-                    <p class="pub-authors">Xi Jiang, Shinan Liu, Saloua Naama, et al.</p>
+                    <h4 data-i18n="publications.pub1.title">JITI: Dynamic Model Serving for Just-in-Time Traffic Inference</h4>
+                    <p class="pub-authors" data-i18n="publications.pub1.authors">Xi Jiang, Shinan Liu, Saloua Naama, et al.</p>
                 </div>
                 <div class="publication-card">
                     <div class="pub-badge">SIGMETRICS '24</div>
-                    <h4>NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation</h4>
-                    <p class="pub-authors">Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, et al.</p>
+                    <h4 data-i18n="publications.pub2.title">NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation</h4>
+                    <p class="pub-authors" data-i18n="publications.pub2.authors">Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, et al.</p>
                 </div>
                 <div class="publication-card">
                     <div class="pub-badge">KDD '23</div>
-                    <h4>Augmenting Rule-based DNS Censorship Detection at Scale with Machine Learning</h4>
-                    <p class="pub-authors">Xi Jiang*, Jacob Brown*, Van Tran*, et al.</p>
+                    <h4 data-i18n="publications.pub3.title">Augmenting Rule-based DNS Censorship Detection at Scale with Machine Learning</h4>
+                    <p class="pub-authors" data-i18n="publications.pub3.authors">Xi Jiang*, Jacob Brown*, Van Tran*, et al.</p>
                 </div>
                 <div class="publication-card">
                     <div class="pub-badge">WWW '23</div>
-                    <h4>Measuring and Evading Turkmenistan's Internet Censorship</h4>
-                    <p class="pub-authors">Sadia Nourin, Van Tran, Xi Jiang, et al.</p>
+                    <h4 data-i18n="publications.pub4.title">Measuring and Evading Turkmenistan's Internet Censorship</h4>
+                    <p class="pub-authors" data-i18n="publications.pub4.authors">Sadia Nourin, Van Tran, Xi Jiang, et al.</p>
                 </div>
             </div>
             <div class="text-center">
-                <a href="/Xi_Chase_Jiang_CV.pdf" class="btn btn-primary" target="_blank">
+                <a href="/Xi_Chase_Jiang_CV.pdf" class="btn btn-primary" target="_blank" data-i18n="publications.viewAll">
                     View All Publications
                 </a>
             </div>
@@ -217,9 +222,9 @@
     <!-- Contact Section -->
     <section class="section contact-section" id="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
             <div class="contact-content">
-                <p class="contact-text">
+                <p class="contact-text" data-i18n="contact.text">
                     I'm always open to discussing research collaborations, startup opportunities,
                     or just having a chat about technology and innovation.
                 </p>
@@ -230,7 +235,7 @@
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Chicago, IL</span>
+                        <span data-i18n="contact.location">Chicago, IL</span>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-university"></i>
@@ -244,7 +249,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Xi (Chase) Jiang. Last updated: November 2025</p>
+            <p data-i18n="footer.copyright">&copy; 2025 Xi (Chase) Jiang. Last updated: November 2025</p>
             <div class="footer-links">
                 <a href="https://github.com/Chasexj" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/xijiang2/" target="_blank">LinkedIn</a>

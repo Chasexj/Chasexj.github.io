@@ -234,6 +234,219 @@ document.querySelectorAll('.venture-card, .stat-card').forEach(card => {
     });
 });
 
+// Language Toggle Functionality
+const translations = {
+    en: {
+        nav: {
+            about: 'About',
+            ventures: 'Ventures',
+            research: 'Research',
+            publications: 'Publications',
+            contact: 'Contact'
+        },
+        hero: {
+            greeting: "Hi, I'm",
+            name: 'Chase (Xi) Jiang',
+            subtitle: 'Ph.D. Student in Computer Science at University of Chicago',
+            description: 'Pioneering synthetic data generation, ML-driven network systems, and building next-gen startups',
+            contact: 'Get in Touch',
+            cv: 'View CV'
+        },
+        about: {
+            title: 'About Me',
+            p1: 'I am a Ph.D. student in Computer Science at the <strong>University of Chicago</strong>, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economics from <strong>Colgate University</strong>, advised by Prof. Aaron Gember Jacobson.',
+            p2: 'My research focuses on <strong>synthetic data generation</strong>, <strong>ML-driven network traffic modeling</strong>, and <strong>real-time data systems</strong>. I have published in top-tier venues including <span class="highlight">SIGMETRICS</span>, <span class="highlight">KDD</span>, <span class="highlight">WWW</span>, and <span class="highlight">CoNEXT</span>.',
+            p3: 'Beyond research, I am an entrepreneur and co-founder of multiple startups pushing the boundaries of brain-machine interfaces and AI-driven social applications.',
+            stats: {
+                publications: 'Publications',
+                patents: 'Patents',
+                startups: 'Startups',
+                awards: 'Awards'
+            }
+        },
+        ventures: {
+            title: 'Current Ventures',
+            mindflow: {
+                role: 'Co-Founder | July 2025 - Present',
+                description: 'Next-generation brain-machine interface startup developing wearables to track and optimize focus, energy, and cognitive performance.',
+                h1: 'Backed by leading investors in AI, neurotech, and consumer hardware',
+                h2: 'First consumer-friendly cognitive optimization wearable'
+            },
+            some: {
+                role: 'Co-Founder | July 2024 - Present',
+                description: 'AI-driven social application revolutionizing how people connect and interact.',
+                h1: '2nd round TechStars evaluation',
+                h2: '1st place in WeShine Pitch competition',
+                h3: 'AI-enhanced matchmaking and user retention'
+            },
+            visitWebsite: 'Visit Website'
+        },
+        research: {
+            title: 'Research Interests',
+            item1: 'Synthetic Data Generation',
+            item2: 'ML-Driven Network Traffic Modeling',
+            item3: 'Real-Time Data Systems',
+            item4: 'State Space Models',
+            item5: 'Network Analysis & Security',
+            item6: 'Protocol-Constrained Generation'
+        },
+        publications: {
+            title: 'Selected Publications',
+            pub1: {
+                title: 'JITI: Dynamic Model Serving for Just-in-Time Traffic Inference',
+                authors: 'Xi Jiang, Shinan Liu, Saloua Naama, et al.'
+            },
+            pub2: {
+                title: 'NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation',
+                authors: 'Xi Jiang, Shinan Liu, Aaron Gember-Jacobson, et al.'
+            },
+            pub3: {
+                title: 'Augmenting Rule-based DNS Censorship Detection at Scale with Machine Learning',
+                authors: 'Xi Jiang*, Jacob Brown*, Van Tran*, et al.'
+            },
+            pub4: {
+                title: "Measuring and Evading Turkmenistan's Internet Censorship",
+                authors: 'Sadia Nourin, Van Tran, Xi Jiang, et al.'
+            },
+            viewAll: 'View All Publications'
+        },
+        contact: {
+            title: 'Get In Touch',
+            text: "I'm always open to discussing research collaborations, startup opportunities, or just having a chat about technology and innovation.",
+            location: 'Chicago, IL'
+        },
+        footer: {
+            copyright: '© 2025 Xi (Chase) Jiang. Last updated: November 2025'
+        }
+    },
+    zh: {
+        nav: {
+            about: '关于我',
+            ventures: '创业项目',
+            research: '研究方向',
+            publications: '学术成果',
+            contact: '联系方式'
+        },
+        hero: {
+            greeting: '你好，我是',
+            name: '江西',
+            subtitle: '芝加哥大学计算机科学博士研究生',
+            description: '致力于合成数据生成、机器学习驱动的网络系统研究，以及创建下一代创业公司',
+            contact: '联系我',
+            cv: '查看简历'
+        },
+        about: {
+            title: '关于我',
+            p1: '我是<strong>芝加哥大学</strong>计算机科学博士研究生，导师是 Nick Feamster 教授。我在<strong>科尔盖特大学</strong>获得计算机科学和经济学双学士学位，导师是 Aaron Gember Jacobson 教授。',
+            p2: '我的研究方向包括<strong>合成数据生成</strong>、<strong>机器学习驱动的网络流量建模</strong>和<strong>实时数据系统</strong>。我在顶级学术会议上发表过论文，包括<span class="highlight">SIGMETRICS</span>、<span class="highlight">KDD</span>、<span class="highlight">WWW</span> 和 <span class="highlight">CoNEXT</span>。',
+            p3: '除了学术研究，我还是一名创业者，共同创立了多家创业公司，致力于推动脑机接口和人工智能驱动的社交应用的发展。',
+            stats: {
+                publications: '论文发表',
+                patents: '专利',
+                startups: '创业公司',
+                awards: '获奖'
+            }
+        },
+        ventures: {
+            title: '当前创业项目',
+            mindflow: {
+                role: '联合创始人 | 2025年7月 - 至今',
+                description: '下一代脑机接口初创公司，开发可穿戴设备来追踪和优化专注力、精力和认知表现。',
+                h1: '获得人工智能、神经技术和消费硬件领域领先投资者的支持',
+                h2: '首个消费级认知优化可穿戴设备'
+            },
+            some: {
+                role: '联合创始人 | 2024年7月 - 至今',
+                description: '人工智能驱动的社交应用，革新人们连接和互动的方式。',
+                h1: 'TechStars 第二轮评估',
+                h2: 'WeShine 创业比赛第一名',
+                h3: '人工智能增强的匹配和用户留存'
+            },
+            visitWebsite: '访问网站'
+        },
+        research: {
+            title: '研究方向',
+            item1: '合成数据生成',
+            item2: '机器学习驱动的网络流量建模',
+            item3: '实时数据系统',
+            item4: '状态空间模型',
+            item5: '网络分析与安全',
+            item6: '协议约束生成'
+        },
+        publications: {
+            title: '精选论文',
+            pub1: {
+                title: 'JITI: 用于即时流量推理的动态模型服务',
+                authors: '江西, 刘世楠, Saloua Naama 等'
+            },
+            pub2: {
+                title: 'NetDiffusion: 通过协议约束流量生成进行网络数据增强',
+                authors: '江西, 刘世楠, Aaron Gember-Jacobson 等'
+            },
+            pub3: {
+                title: '使用机器学习大规模增强基于规则的DNS审查检测',
+                authors: '江西*, Jacob Brown*, Van Tran* 等'
+            },
+            pub4: {
+                title: '测量和规避土库曼斯坦的互联网审查',
+                authors: 'Sadia Nourin, Van Tran, 江西 等'
+            },
+            viewAll: '查看所有论文'
+        },
+        contact: {
+            title: '联系方式',
+            text: '我非常乐意讨论研究合作、创业机会，或者只是聊聊技术和创新。',
+            location: '芝加哥, 伊利诺伊州'
+        },
+        footer: {
+            copyright: '© 2025 江西. 最后更新：2025年11月'
+        }
+    }
+};
+
+let currentLang = 'en';
+
+function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('preferredLanguage', lang);
+
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const keys = element.getAttribute('data-i18n').split('.');
+        let translation = translations[lang];
+
+        for (const key of keys) {
+            translation = translation[key];
+        }
+
+        element.innerHTML = translation;
+    });
+
+    // Update active state of language toggle
+    document.querySelectorAll('.lang-option').forEach(option => {
+        if (option.getAttribute('data-lang') === lang) {
+            option.classList.add('active');
+        } else {
+            option.classList.remove('active');
+        }
+    });
+
+    // Update HTML lang attribute
+    document.documentElement.lang = lang;
+}
+
+// Language toggle button click handler
+document.getElementById('lang-toggle').addEventListener('click', () => {
+    const newLang = currentLang === 'en' ? 'zh' : 'en';
+    setLanguage(newLang);
+});
+
+// Initialize language on page load
+window.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+    setLanguage(savedLang);
+});
+
 // Console Easter egg
 console.log('%c👋 Hello there!', 'color: #2563eb; font-size: 24px; font-weight: bold;');
 console.log('%c🚀 Interested in the code? Check out the repo!', 'color: #7c3aed; font-size: 14px;');
