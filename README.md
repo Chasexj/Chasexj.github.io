@@ -61,6 +61,9 @@ AI-driven social application
 
 ### Recent Highlights
 
+**CAP: Detecting Network Device Misconfigurations with Context-Aware Prompting of LLMs**
+*SIGMETRICS'26* | Xi Jiang, Aaron Gember-Jacobson, Nick Feamster.
+
 **JITI: Dynamic Model Serving for Just-in-Time Traffic Inference**
 *CoNEXT'25* | Xi Jiang, Shinan Liu, Saloua Naama, et al.
 
