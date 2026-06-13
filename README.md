@@ -1,11 +1,11 @@
 # Xi (Chase) Jiang
 
-*Ph.D. Student in Computer Science at University of Chicago*
-*Last updated: November 2025*
+*Ph.D. in Computer Science at University of Chicago*
+*Last updated: June 2026*
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at the University of Chicago, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economic from Colgate Unversity, advised by Prof. Aaron Gember Jacobson. My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
+I received my Ph.D. in Computer Science at the University of Chicago, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economic from Colgate Unversity, advised by Prof. Aaron Gember Jacobson. My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
 
 Beyond research, I am an entrepreneur and co-founder of multiple startups.
 
