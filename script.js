@@ -247,16 +247,16 @@ const translations = {
         hero: {
             greeting: "Hi, I'm",
             name: 'Chase (Xi) Jiang',
-            subtitle: 'Ph.D. Student in Computer Science at University of Chicago',
-            description: 'Pioneering synthetic data generation, ML-driven network systems, and building next-gen startups',
+            subtitle: 'CS Ph.D. and Founder of MindFlow',
+            description: 'Synthetic data generation, ML-driven network systems, and building next-gen startups',
             contact: 'Get in Touch',
             cv: 'View CV'
         },
         about: {
             title: 'About Me',
-            p1: 'I am a Ph.D. student in Computer Science at the <strong>University of Chicago</strong>, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economics from <strong>Colgate University</strong>, advised by Prof. Aaron Gember Jacobson.',
+            p1: 'I received my Ph.D. in Computer Science at the <strong>University of Chicago</strong>, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economics from <strong>Colgate University</strong>, advised by Prof. Aaron Gember Jacobson.',
             p2: 'My research focuses on <strong>synthetic data generation</strong>, <strong>ML-driven network traffic modeling</strong>, and <strong>real-time data systems</strong>. I have published in top-tier venues including <span class="highlight">SIGMETRICS</span>, <span class="highlight">KDD</span>, <span class="highlight">WWW</span>, and <span class="highlight">CoNEXT</span>.',
-            p3: 'Beyond research, I am an entrepreneur and co-founder of multiple startups pushing the boundaries of brain-machine interfaces and AI-driven social applications.',
+            p3: 'Beyond research, I am invovled in multiple startups pushing the boundaries of brain-machine interfaces and AI-driven social applications.',
             stats: {
                 publications: 'Publications',
                 patents: 'Patents',
