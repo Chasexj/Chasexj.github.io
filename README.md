@@ -1,16 +1,16 @@
 # Xi (Chase) Jiang
 
-*Ph.D. Student in Computer Science at University of Chicago*
+*Ph.D. in Computer Science, University of Chicago*
 *Last updated: November 2025*
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at the University of Chicago, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economic from Colgate Unversity, advised by Prof. Aaron Gember Jacobson. My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
+I received my Ph.D. in Computer Science from the University of Chicago, advised by Prof. Nick Feamster. I also received my B.S. in both Computer Science and Economic from Colgate Unversity, advised by Prof. Aaron Gember Jacobson. My research focuses on synthetic data generation, ML-driven network traffic modeling, and real-time data systems. I have published in top-tier venues including SIGMETRICS, KDD, WWW, and CoNEXT.
 
 Beyond research, I am an entrepreneur and co-founder of multiple startups.
 
-**Contact:** xijiang9@uchicago.edu
-**Location:** Chicago, IL
+**Contact:** chase(at)aresneuro(dot)removethis(dot)com
+**Location:** San Francisco & New York
 **GitHub:** [Chasexj](https://github.com/Chasexj)
 **LinkedIn:** [Xi (Chase) Jiang](https://www.linkedin.com/in/xijiang2/)
 
@@ -19,7 +19,7 @@ Beyond research, I am an entrepreneur and co-founder of multiple startups.
 ## Education
 
 **The University of Chicago** | *Chicago, IL*
-**Ph.D. Student in Computer Science** | Sep 2021 - Present
+**Ph.D. in Computer Science** | Sep 2021 - 2026
 - Advisor: Prof. Nick Feamster (ACM Fellow, MIT Tech Review 35 under 35)
 - Recipient of Crerar Fellowship
 - Successfully defended M.S. thesis as part of the integrated Ph.D. program
@@ -73,7 +73,6 @@ AI-driven social application
 **Measuring and Evading Turkmenistan's Internet Censorship**
 *WWW'23* | Sadia Nourin, Van Tran, Xi Jiang, et al.
 
-[View Full Publication List](/Xi_Chase_Jiang_CV.pdf)
 
 ---
 
@@ -125,7 +124,6 @@ Extensive finance-related experiences at **Red Pulse**, **YinLang IT Limited**, 
 
 ## Documents
 
-- [Curriculum Vitae (PDF)](/Xi_Chase_Jiang_CV.pdf)
 - [GitHub Profile](https://github.com/Chasexj)
 - [LinkedIn](https://www.linkedin.com/in/xijiang2/)
 
