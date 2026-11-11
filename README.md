@@ -1,7 +1,7 @@
 # Xi (Chase) Jiang
 
 *Ph.D. in Computer Science, University of Chicago*
-*Last updated: November 2025*
+*Last updated: November 2026*
 
 ## About Me
 
@@ -60,6 +60,9 @@ AI-driven social application
 ## Selected Publications
 
 ### Recent Highlights
+
+**CAP: Detecting Network Device Misconfigurations with Context-Aware Prompting of LLMs**
+*SIGMETRICS'26* | Xi Jiang, Aaron Gember-Jacobson, Nick Feamster.
 
 **JITI: Dynamic Model Serving for Just-in-Time Traffic Inference**
 *CoNEXT'25* | Xi Jiang, Shinan Liu, Saloua Naama, et al.
