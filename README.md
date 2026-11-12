@@ -9,7 +9,7 @@ I received my Ph.D. in Computer Science from the University of Chicago, advised 
 
 Beyond research, I am an entrepreneur and co-founder of multiple startups.
 
-**Contact:** chase(at)aresneuro(dot)removethis(dot)com
+**Contact:** chase(at)aresneuro(dot)removethiscom
 **Location:** San Francisco & New York
 **GitHub:** [Chasexj](https://github.com/Chasexj)
 **LinkedIn:** [Xi (Chase) Jiang](https://www.linkedin.com/in/xijiang2/)
